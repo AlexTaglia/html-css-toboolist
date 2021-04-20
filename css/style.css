@@ -3,3 +3,28 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9 ;
+}
+
+header{
+    background-color: #ffffff;
+}
+
+#logo{
+    vertical-align: middle;
+    margin: 5px 5px 5px 15px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
