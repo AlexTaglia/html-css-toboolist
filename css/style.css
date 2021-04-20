@@ -4,49 +4,13 @@
     padding: 0;
 }
 
-ul{
-    list-style: none;
-}
-
-
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #f6f8f9 ;
-}
-
-header, main, .section-task{
-    background-color: #fff;
-}
-
-#logo{
-    vertical-align: middle;
-    margin: 5px 5px 5px 15px;
-}
-
-.title{
-    font-size: 30px;
-    font-weight: bold;
-    vertical-align: middle;
-}
-
-main{
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
-.section-btn{
-    line-height: 50px;
-    border-bottom: 2px solid #f6f8f9;
-}
-
+/* pulsanti */
 .btn{  
     border: 1px solid #d4d4d4;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     font-weight: bold;
     vertical-align: middle;
-    
 }
 
 .btn-selected{
@@ -58,12 +22,10 @@ main{
     background-color: #fff;
     color: #d4d4d4;
 }
+/* fine pulsanti */
 
-.task{
-    font-size: 25px;
-    margin-top: 15px;
-}
 
+/* checkbox */
 .tick-circle{
     border: 1px solid #03c203;
     border-radius: 50%;
@@ -84,29 +46,21 @@ main{
 .tick-green{
     color: #03c203;
     border-color: #03c203;
-    
 }
 
 .tick-red{
     color: red;
     border-color: red;
-    
 }
+/* fine check box */
 
-li{
-    margin-top: 20px;
-}
 
-.section-btn, .section-task{
-    margin-left: 25px;
-}
-
+/* TAG */
 .tag{
-    border: 1px solid #d4d4d4 ;
     font-size: 10px;
     font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 6px 10px;
+    border-radius: 12px;
     color: #fff;
 }
 
@@ -132,4 +86,61 @@ li{
 
 .tag-sales{
     background-color: #b0c926;
+}
+/* fine tag */
+
+
+/* altro CSS */
+ul{
+    list-style: none;
+}
+
+main {
+    border-radius: 10px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9 ;
+}
+
+header, main, .section-task{
+    background-color: #fff;
+}
+
+#logo{
+    vertical-align: middle;
+    margin: 5px 5px 5px 15px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.section-btn{
+    line-height: 50px;
+    border-bottom: 2px solid #f6f8f9;
+}
+
+.section-btn, .section-task{
+    padding-left: 40px;
+}
+
+.task{
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+li{
+    margin-top: 20px;
+}
+
+.lastli{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
